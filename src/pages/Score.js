@@ -25,10 +25,10 @@ function Score() {
       }}
     >
       <Typography variant="caption" fontSize={24} sx={{ my: 2 }}>
-        {score >= 3 ? `Goog Job, ${userName} !` : `Try Again, ${userName} !`}
+        {score >= 3 ? `Good Job, ${userName} !` : `Try Again, ${userName} !`}
       </Typography>
       <Typography variant="caption" fontSize={24} sx={{ my: 2 }}>
-        Your Score is {score}
+        Your Score is {score} / 5
       </Typography>
       <Button
         variant="outlined"
